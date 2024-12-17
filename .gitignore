@@ -1,0 +1,28 @@
+# 忽略除了backend/apps之外的所有文件
+/*
+!/.gitignore
+!/backend/
+/backend/*
+!/backend/apps/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+
+# Django
+*.log
+migrations/
+!migrations/__init__.py
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 其他
+.DS_Store
